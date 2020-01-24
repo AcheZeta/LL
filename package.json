@@ -1,0 +1,16 @@
+{
+  "name": "leyendasleg",
+  "version": "1.0.0",
+  "description": "A practical exercise HTML & CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "achezeta"
+  ],
+  "author": "AcheZeta",
+  "license": "MIT"
+}
