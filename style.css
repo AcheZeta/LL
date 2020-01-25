@@ -1,9 +1,115 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #f9f9f9;
+    font-family: 'Montserrat',
+        sans-serif;
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
 }
 
 header {
     width: 100%;
-    background-color: #251533;
+    height: auto;
+    background-color: #673f91;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #673f91;
+    color: #fff200;
+    text-align: center;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+}
+
+header nav a {
+    color: #fff200;
+    margin: 10px;
+}
+
+header nav .nav-menu {
+    height: auto;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+header .main-logo {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+main section {
+    display: flex;
+    padding: 20px;
+}
+
+main .main-art,
+.main-nuevos {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+main .episodios,
+main .podcast {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+main .episodios p {
+    margin: 0;
+    text-align: center;
+}
+
+main .portada img {
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+}
+
+main .podcast img {
+    width: 100px;
+    height: auto;
+    padding: 10px;
+}
+
+main .main-subtitle {
+    display: flex;
+    justify-content: center;
+}
+
+main .main-allThingsComedy {
+    display: flex;
+    justify-content: center;
+}
+
+main .main-patreon {
+    display: flex;
+    justify-content: center;
+}
+
+main .main-patreon button {
+    border: none;
+    text-decoration: none;
+    background-color: #673f91;
+    text-align: center;
+    font-size: 16px;
+    color: #fff200;
+    padding: 15px;
+    box-shadow: 3px 3px 1px 0 #330060;
 }
