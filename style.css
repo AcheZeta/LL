@@ -34,10 +34,10 @@ header {
     align-items: center;
 } */
 
-/* a {
+a {
     text-decoration: none;
     cursor: pointer;
-} */
+}
 
 header .main-logo {
     display: flex;
@@ -115,7 +115,7 @@ main .main-patreon {
     padding: 20px;
 }
 
-main .main-patreon button {
+main .main-patreon a {
     border: none;
     text-decoration: none;
     background-color: #673f91;
@@ -125,6 +125,7 @@ main .main-patreon button {
     padding: 15px;
     box-shadow: 3px 3px 1px 0 #330060;
 }
+
 
 footer {
     position: absolute;
