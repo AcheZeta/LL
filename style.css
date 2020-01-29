@@ -45,12 +45,17 @@ header .main-logo {
 }
 
 header .main-logo img {
+    width: 100%;
     margin: 20px 0 20px 0;
 }
 
 main section {
     display: flex;
     color: whitesmoke;
+}
+
+main .main-art img {
+    width: 100%;
 }
 
 main .main-about p {
@@ -94,8 +99,8 @@ main .podcast {
     grid-column-gap: 10px;
 }
 
-main .podcast img {
-    width: 50px;
+main .podcast a img {
+    width: 30px;
     height: auto;
 }
 
@@ -125,7 +130,6 @@ main .main-patreon a {
     padding: 15px;
     box-shadow: 3px 3px 1px 0 #330060;
 }
-
 
 footer {
     position: absolute;
